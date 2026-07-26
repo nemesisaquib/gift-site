@@ -1,0 +1,262 @@
+{
+  "source": "https://www.fnp.com/gifts-lp",
+  "scraped_at": "2026-07-26",
+  "site_info": {
+    "brand": "FNP (Ferns N Petals)"
+  },
+  "categories": [
+    {
+      "id": "cat_001",
+      "name": "Flowers",
+      "slug": "flowers",
+      "subcategories": ["Roses", "Lilies", "Carnations", "Orchids", "Gerberas", "Mixed Bouquets", "Sunflowers", "Tulips"],
+      "icon": "flower",
+      "banner_image": "flowers-banner.jpg"
+    },
+    {
+      "id": "cat_002",
+      "name": "Cakes",
+      "slug": "cakes",
+      "subcategories": ["Chocolate", "Black Forest", "Red Velvet", "Butterscotch", "Vanilla", "Pineapple", "Truffle", "Blueberry", "Designer Cakes", "Photo Cakes", "Jar Cakes", "Fondant Cakes", "Eggless Cakes"],
+      "icon": "cake",
+      "banner_image": "cakes-banner.jpg"
+    },
+    {
+      "id": "cat_003",
+      "name": "Plants",
+      "slug": "plants",
+      "subcategories": ["Bamboo", "Jade", "Bonsai", "Money Plant", "Succulents", "Air-Purifying", "Foliage"],
+      "icon": "plant",
+      "banner_image": "plants-banner.jpg"
+    },
+    {
+      "id": "cat_004",
+      "name": "Personalised Gifts",
+      "slug": "personalised",
+      "subcategories": ["Mugs", "Cushions", "Photo Frames", "LED Lamps", "Caricatures", "Jewellery", "T-shirts", "Chocolates", "Stationery"],
+      "icon": "gift",
+      "banner_image": "personalised-banner.jpg"
+    },
+    {
+      "id": "cat_005",
+      "name": "Chocolates",
+      "slug": "chocolates",
+      "subcategories": ["Ferrero Rocher", "Dairy Milk", "KitKat", "Handmade", "Dubai Chocolate", "Sugar-Free", "Dark Chocolate", "Milk Chocolate"],
+      "icon": "chocolate",
+      "banner_image": "chocolates-banner.jpg"
+    },
+    {
+      "id": "cat_006",
+      "name": "Gift Hampers",
+      "slug": "gift-hampers",
+      "subcategories": ["Skincare", "Haircare", "Gourmet", "Spa Kits", "Snack Hampers", "Dry Fruits"],
+      "icon": "hamper",
+      "banner_image": "hampers-banner.jpg"
+    },
+    {
+      "id": "cat_007",
+      "name": "Combos",
+      "slug": "combos",
+      "subcategories": ["Flower + Cake", "Cake + Teddy", "Chocolate + Flowers", "Flower + Chocolate"],
+      "icon": "combo",
+      "banner_image": "combos-banner.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_001",
+      "slug": "roses-n-chocolates-delight",
+      "name": "Roses N Chocolates Delight",
+      "category": "Combos",
+      "subcategory": "Flower + Chocolate",
+      "price": 849,
+      "mrp": 899,
+      "discount_percent": 6,
+      "rating": 4.8,
+      "review_count": 137,
+      "delivery": {
+        "free_delivery": true,
+        "same_day": true,
+        "midnight": true,
+        "express_60min": false,
+        "fixed_time": true
+      },
+      "images": {
+        "main": "https://www.fnp.com/images/pr/l/v20221205180817/roses-n-chocolates-delight_1.jpg"
+      },
+      "description": "A delightful combo of 10 red roses and 3 Ferrero Rocher chocolates, perfect for expressing love and affection.",
+      "tags": ["bestseller", "romantic", "same-day"]
+    },
+    {
+      "id": "prod_002",
+      "slug": "8-red-roses-bouquet",
+      "name": "8 Red Roses Bouquet",
+      "category": "Flowers",
+      "subcategory": "Roses",
+      "price": 499,
+      "mrp": 549,
+      "discount_percent": 9,
+      "rating": 4.7,
+      "review_count": 89,
+      "delivery": {
+        "free_delivery": true,
+        "same_day": true,
+        "midnight": true,
+        "express_60min": true,
+        "fixed_time": true
+      },
+      "images": {
+        "main": "https://www.fnp.com/images/pr/l/v20230101120000/8-red-roses-bouquet_1.jpg"
+      },
+      "description": "Classic bouquet of 8 fresh red roses, elegantly wrapped to express your deepest feelings.",
+      "tags": ["bestseller", "classic", "budget-friendly"]
+    },
+    {
+      "id": "prod_003",
+      "slug": "love-you-personalised-mug",
+      "name": "Love You Personalised Mug",
+      "category": "Personalised Gifts",
+      "subcategory": "Mugs",
+      "price": 349,
+      "mrp": 399,
+      "discount_percent": 13,
+      "rating": 4.6,
+      "review_count": 215,
+      "delivery": {
+        "free_delivery": true,
+        "same_day": false,
+        "midnight": false,
+        "express_60min": false,
+        "fixed_time": true,
+        "standard": true
+      },
+      "images": {
+        "main": "https://www.fnp.com/images/pr/l/v20230101120000/love-you-personalised-mug_1.jpg"
+      },
+      "description": "A white ceramic mug personalised with your photo and 'Love You' message. Perfect for daily reminders of affection.",
+      "tags": ["personalised", "bestseller", "under-500"]
+    },
+    {
+      "id": "prod_004",
+      "slug": "love-loaded-red-velvet-heart-cake-half-kg",
+      "name": "Love Loaded Red Velvet Heart Cake (Half Kg)",
+      "category": "Cakes",
+      "subcategory": "Red Velvet",
+      "price": 649,
+      "mrp": 699,
+      "discount_percent": 7,
+      "rating": 4.9,
+      "review_count": 342,
+      "delivery": {
+        "free_delivery": true,
+        "same_day": true,
+        "midnight": true,
+        "express_60min": true,
+        "fixed_time": true
+      },
+      "images": {
+        "main": "https://www.fnp.com/images/pr/l/v20230101120000/red-velvet-heart-cake_1.jpg"
+      },
+      "description": "A heart-shaped red velvet cake loaded with cream cheese frosting. Perfect for romantic celebrations.",
+      "tags": ["bestseller", "romantic", "same-day", "heart-shaped"]
+    },
+    {
+      "id": "prod_005",
+      "slug": "lucky-bamboo-plant-2-layer",
+      "name": "Lucky Bamboo Plant (2 Layer)",
+      "category": "Plants",
+      "subcategory": "Bamboo",
+      "price": 399,
+      "mrp": 449,
+      "discount_percent": 11,
+      "rating": 4.5,
+      "review_count": 178,
+      "delivery": {
+        "free_delivery": true,
+        "same_day": true,
+        "midnight": false,
+        "express_60min": false,
+        "fixed_time": true
+      },
+      "images": {
+        "main": "https://www.fnp.com/images/pr/l/v20230101120000/lucky-bamboo-2-layer_1.jpg"
+      },
+      "description": "A beautiful 2-layer lucky bamboo plant in a glass vase, symbolizing good fortune and prosperity.",
+      "tags": ["bestseller", "corporate", "good-luck", "low-maintenance"]
+    },
+    {
+      "id": "prod_006",
+      "slug": "ferrero-rocher-chocolate-bouquet",
+      "name": "Ferrero Rocher Chocolate Bouquet",
+      "category": "Chocolates",
+      "subcategory": "Ferrero Rocher",
+      "price": 1299,
+      "mrp": 1499,
+      "discount_percent": 13,
+      "rating": 4.8,
+      "review_count": 256,
+      "delivery": {
+        "free_delivery": true,
+        "same_day": true,
+        "midnight": true,
+        "express_60min": false,
+        "fixed_time": true
+      },
+      "images": {
+        "main": "https://www.fnp.com/images/pr/l/v20230101120000/ferrero-rocher-bouquet_1.jpg"
+      },
+      "description": "A stunning bouquet made entirely of Ferrero Rocher chocolates, wrapped elegantly for a luxurious gifting experience.",
+      "tags": ["premium", "bestseller", "luxury", "same-day"]
+    },
+    {
+      "id": "prod_007",
+      "slug": "gourmet-snack-hamper",
+      "name": "Gourmet Snack Hamper",
+      "category": "Gift Hampers",
+      "subcategory": "Gourmet",
+      "price": 1599,
+      "mrp": 1899,
+      "discount_percent": 16,
+      "rating": 4.4,
+      "review_count": 98,
+      "delivery": {
+        "free_delivery": true,
+        "same_day": false,
+        "midnight": false,
+        "express_60min": false,
+        "fixed_time": true,
+        "standard": true
+      },
+      "images": {
+        "main": "https://www.fnp.com/images/pr/l/v20230101120000/gourmet-snack-hamper_1.jpg"
+      },
+      "description": "A curated hamper filled with premium snacks, cookies, and treats. Perfect for festive gifting and corporate occasions.",
+      "tags": ["premium", "corporate", "festive", "diwali-special"]
+    },
+    {
+      "id": "prod_008",
+      "slug": "personalised-led-cushion",
+      "name": "Personalised LED Cushion",
+      "category": "Personalised Gifts",
+      "subcategory": "Cushions",
+      "price": 599,
+      "mrp": 699,
+      "discount_percent": 14,
+      "rating": 4.7,
+      "review_count": 312,
+      "delivery": {
+        "free_delivery": true,
+        "same_day": false,
+        "midnight": false,
+        "express_60min": false,
+        "fixed_time": true,
+        "standard": true
+      },
+      "images": {
+        "main": "https://www.fnp.com/images/pr/l/v20230101120000/personalised-led-cushion_1.jpg"
+      },
+      "description": "A soft cushion with LED lights that glow with your personalised photo and message. A magical gift for any occasion.",
+      "tags": ["personalised", "bestseller", "romantic", "trending"]
+    }
+  ]
+}

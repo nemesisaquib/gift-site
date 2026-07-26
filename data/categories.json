@@ -1,0 +1,42 @@
+[
+  {
+    "id": "c1",
+    "name": "Flowers",
+    "slug": "flowers",
+    "icon": "fa-solid fa-leaf",
+    "image": "https://images.unsplash.com/photo-1563241527-3004b7be02cd?w=500&q=80",
+    "subcategories": ["Roses", "Lilies", "Orchids", "Mixed Bouquets"]
+  },
+  {
+    "id": "c2",
+    "name": "Cakes",
+    "slug": "cakes",
+    "icon": "fa-solid fa-cake-candles",
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&q=80",
+    "subcategories": ["Chocolate", "Black Forest", "Red Velvet", "Photo Cakes"]
+  },
+  {
+    "id": "c3",
+    "name": "Personalised",
+    "slug": "personalised",
+    "icon": "fa-solid fa-wand-magic-sparkles",
+    "image": "https://images.unsplash.com/photo-1549465220-1a8b9238cd48?w=500&q=80",
+    "subcategories": ["Mugs", "Cushions", "Photo Frames", "LED Lamps"]
+  },
+  {
+    "id": "c4",
+    "name": "Plants",
+    "slug": "plants",
+    "icon": "fa-solid fa-seedling",
+    "image": "https://images.unsplash.com/photo-1416879598056-0cbb04922f85?w=500&q=80",
+    "subcategories": ["Bamboo", "Bonsai", "Air-Purifying"]
+  },
+  {
+    "id": "c5",
+    "name": "Combos",
+    "slug": "combos",
+    "icon": "fa-solid fa-gift",
+    "image": "https://images.unsplash.com/photo-1513885535751-8b9238bd345a?w=500&q=80",
+    "subcategories": ["Flower + Cake", "Cake + Teddy", "Chocolate + Flowers"]
+  }
+]
