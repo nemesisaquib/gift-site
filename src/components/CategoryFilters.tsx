@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import ProductCard from "@/components/ProductCard";
-import type { Product, Category } from "@/types"; // Wait, I might not have these types perfectly defined, I'll use any or inline them
+
 
 export default function CategoryFilters({ 
   initialProducts, 

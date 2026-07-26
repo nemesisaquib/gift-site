@@ -30,7 +30,7 @@ export default async function ProductDetailPage({ params }: Props) {
   const category = categoriesData.find(c => c.id === product.categoryId);
   
   // Extract live details from fnp data if available
-  const fnpProduct = fnpData.products.find(p => p.slug === product.slug);
+  const fnpProduct = fnpData.products.find(p => p.slug === product.slug) as any;
   const specifications = fnpProduct?.details || null;
   const careInstructions = fnpProduct?.care_instructions || null;
 

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function OrdersPage() {
   return (
     <div className="animate-fade-in">
