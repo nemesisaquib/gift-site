@@ -142,33 +142,48 @@ export default function Home() {
 
       {/* ── BANNER STRIP ─────────────────────────────────────── */}
       <section className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div
-            className="relative rounded-2xl overflow-hidden h-48 sm:h-56 flex items-center"
-            style={{ background: "linear-gradient(135deg, #e91e63, #c2185b)" }}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <Link
+            href="/category/cakes"
+            className="group relative rounded-3xl overflow-hidden h-56 sm:h-64 flex items-center shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100"
           >
-            <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(circle, white 1px, transparent 1px)", backgroundSize: "24px 24px" }}></div>
-            <div className="relative px-8">
-              <p className="text-white/80 text-sm mb-1">🎂 Order online</p>
-              <h3 className="text-white text-2xl font-extrabold mb-3" style={{ fontFamily: "var(--font-poppins)" }}>Custom Photo Cakes</h3>
-              <Link href="/category/cakes" className="inline-flex items-center gap-2 bg-white text-[#e91e63] font-bold px-5 py-2.5 rounded-xl text-sm hover:shadow-md transition-shadow">
-                Order Now <i className="fa-solid fa-arrow-right"></i>
-              </Link>
+            <img 
+              src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?w=800&q=80" 
+              alt="Custom Photo Cakes" 
+              className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+            <div className="relative px-8 sm:px-12 z-10 max-w-md transform group-hover:translate-x-2 transition-transform duration-500">
+              <p className="text-[#e91e63] font-extrabold text-xs mb-2 tracking-widest uppercase flex items-center gap-2">
+                <i className="fa-solid fa-cake-candles"></i> Order online
+              </p>
+              <h3 className="text-white text-3xl font-extrabold mb-4 leading-tight" style={{ fontFamily: "var(--font-poppins)" }}>Custom Photo <br/> Cakes</h3>
+              <span className="inline-flex items-center gap-2 bg-[#e91e63] text-white font-bold px-6 py-3 rounded-xl text-sm shadow-lg shadow-pink-500/30 group-hover:bg-pink-600 transition-colors">
+                Order Now <i className="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+              </span>
             </div>
-          </div>
-          <div
-            className="relative rounded-2xl overflow-hidden h-48 sm:h-56 flex items-center"
-            style={{ background: "linear-gradient(135deg, #00897b, #00695c)" }}
+          </Link>
+
+          <Link
+            href="/category/plants"
+            className="group relative rounded-3xl overflow-hidden h-56 sm:h-64 flex items-center shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100"
           >
-            <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(circle, white 1px, transparent 1px)", backgroundSize: "24px 24px" }}></div>
-            <div className="relative px-8">
-              <p className="text-white/80 text-sm mb-1">🌿 Bring nature home</p>
-              <h3 className="text-white text-2xl font-extrabold mb-3" style={{ fontFamily: "var(--font-poppins)" }}>Indoor Plants & More</h3>
-              <Link href="/category/plants" className="inline-flex items-center gap-2 bg-white text-[#00897b] font-bold px-5 py-2.5 rounded-xl text-sm hover:shadow-md transition-shadow">
-                Shop Plants <i className="fa-solid fa-arrow-right"></i>
-              </Link>
+            <img 
+              src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=800&q=80" 
+              alt="Indoor Plants" 
+              className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-out"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#004d40]/90 via-[#004d40]/60 to-transparent"></div>
+            <div className="relative px-8 sm:px-12 z-10 max-w-md transform group-hover:translate-x-2 transition-transform duration-500">
+              <p className="text-emerald-400 font-extrabold text-xs mb-2 tracking-widest uppercase flex items-center gap-2">
+                <i className="fa-solid fa-leaf"></i> Bring nature home
+              </p>
+              <h3 className="text-white text-3xl font-extrabold mb-4 leading-tight" style={{ fontFamily: "var(--font-poppins)" }}>Indoor Plants <br/> &amp; More</h3>
+              <span className="inline-flex items-center gap-2 bg-white text-[#00695c] font-bold px-6 py-3 rounded-xl text-sm shadow-lg group-hover:bg-gray-50 transition-colors">
+                Shop Plants <i className="fa-solid fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+              </span>
             </div>
-          </div>
+          </Link>
         </div>
       </section>
 
